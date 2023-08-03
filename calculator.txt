@@ -1,0 +1,41 @@
+public class Calculator{
+     
+     public static void main(String[] args){
+         
+          Scanner sc=new Scanner(System.in);
+          String input=sc.nextline();
+switch (input){
+case "add":
+          System.out println("enter the first number");
+          int a=sc.nextint();
+          System.out println("enter the second number");
+          int b=sc.nextint();
+          int c=a+b;
+          System.out println(c);
+
+case "sub":
+          System.out println("enter the first number");
+          int a=sc.nextint();
+          System.out println("enter the second number");
+          int b=sc.nextint();
+          int c=a-b;
+          System.out println(c);
+
+case "mux":
+          System.out println("enter the first number");
+          int a=sc.nextint();
+          System.out println("enter the second number");
+          int b=sc.nextint();
+          int c=a*b;
+          System.out println(c);
+
+case "div":
+          System.out println("enter the first number");
+          int a=sc.nextint();
+          System.out println("enter the second number");
+          int b=sc.nextint();
+          int c=a/b;
+          System.out println(c);
+   }
+  }
+}
